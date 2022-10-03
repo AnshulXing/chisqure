@@ -45,12 +45,12 @@ class EuclideanDistTracker:
             _, _, _, _, object_id, index = obj_bb_id
             center = self.center_points[object_id]
             new_center_points[object_id] = center
-
+        
         # Update dictionary with IDs not used removed
         self.center_points = new_center_points.copy()
         return objects_bbs_ids
 
 
-
+#addition function
 def ad(a, b):
     return a+b
