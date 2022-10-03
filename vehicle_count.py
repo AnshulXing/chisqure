@@ -248,3 +248,5 @@ def from_static_image(image):
 if __name__ == '__main__':
     realTime()
     from_static_image(image_file)
+    #update
+    print("Hello")
